@@ -1,0 +1,14 @@
+#tests
+test
+src
+
+#linters
+.eslintrc
+.eslintignore
+
+#editor settings
+.editorconfig
+
+#git
+.gitattributes
+.gitignore
