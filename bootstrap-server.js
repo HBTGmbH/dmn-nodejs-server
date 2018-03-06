@@ -1,4 +1,4 @@
-#!/usr/bin/env
+#!/usr/bin/env node
 
 /*
 *  ©2018 HBT Hamburger Berater Team GmbH

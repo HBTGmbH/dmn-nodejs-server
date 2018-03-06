@@ -7,7 +7,7 @@ const { getDecision, getAllDecisions, getDecisionSpecificVersion, getDecisionAll
 const restify = require('restify');
 
 const server = restify.createServer({
-  name: 'dmn-server v1.0.0',
+  name: 'dmn-server v1.0.1',
   certificate: undefined,
   key: undefined,
 });

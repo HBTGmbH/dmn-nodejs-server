@@ -1,6 +1,6 @@
 {
     "name": "@hbtgmbh/dmn-server",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Standalone DMN server with REST and JSON-RPC API, using @hbtgmbh/dmn-eval-js as decision engine",
     "license": "MIT",
     "main": "bootstrap-server.js",

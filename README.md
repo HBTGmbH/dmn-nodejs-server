@@ -20,7 +20,7 @@ npm install -g @hbtgmbh/dmn-server
 
 Example call:
 ```
-node dmn-server 8080 8081 /usr/share/dmn-server/data
+dmn-server 8080 8081 /usr/share/dmn-server/data
 ```
 
 In this example,
