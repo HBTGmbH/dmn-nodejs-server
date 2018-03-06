@@ -7,13 +7,13 @@
 
 const fs = require('fs');
 const logger = require('loglevel').getLogger('dmn-server');
-const postDecision = require('./src/post-decision.js');
-const deleteDecision = require('./src/delete-decision.js');
+const postDecision = require('./dist/post-decision.js');
+const deleteDecision = require('./dist/delete-decision.js');
 const decisionDefinitionRestServer = require('./decision-definition-rest.js');
 const decisionExecutionRpcServer = require('./decision-execution-rpc.js');
-const parseDecision = require('./src/parse-decision.js');
-const { loadDecisions } = require('./src/decision-fs-store.js');
-const { getDecisionInLatestVersion } = require('./src/decision-inmemory-store');
+const parseDecision = require('./dist/parse-decision.js');
+const { loadDecisions } = require('./dist/decision-fs-store.js');
+const { getDecisionInLatestVersion } = require('./dist/decision-inmemory-store');
 
 logger.setLevel('info');
 

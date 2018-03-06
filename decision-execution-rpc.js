@@ -4,7 +4,7 @@
 */
 
 const JsonRpcServer = require('jsonrpcserver');
-const executeDecision = require('./src/execute-decision.js');
+const executeDecision = require('./dist/execute-decision.js');
 const logger = require('loglevel').getLogger('dmn-server');
 
 const decisionExecutionRpcServer = new JsonRpcServer(logger);

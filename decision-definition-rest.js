@@ -3,7 +3,7 @@
 *  All Rights Reserved.
 */
 
-const { getDecision, getAllDecisions, getDecisionSpecificVersion, getDecisionAllVersions } = require('./src/get-decision.js');
+const { getDecision, getAllDecisions, getDecisionSpecificVersion, getDecisionAllVersions } = require('./dist/get-decision.js');
 const restify = require('restify');
 
 const server = restify.createServer({
