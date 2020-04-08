@@ -13,7 +13,12 @@ function executeDecision(params, processResponse) {
   const context = params.context;
   const decisionName = params.decisionName;
 
-  const decision = getDecisionInLatestVersion(decisionName);
+  let decision;
+  try {
+    decision = getDecisionInLatestVersion(decisionName);
+  } catch (e) {
+    logger.warn(e)
+  }
   if (decision === undefined) {
     const errorMessage = `Decision ${decisionName} was not found.`;
     logger.info(errorMessage);
